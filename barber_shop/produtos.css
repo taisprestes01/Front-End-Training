@@ -28,13 +28,30 @@ nav a {
 	text-decoration: none;
 }
 
+nav a :hover {
+color: #c78c19;
+text-decoration: underline;
+}
+
 .listaDeProdutos{
 	width: 940px;
 	margin: 0 auto;/*Margem de 0 pra cima e baico e automatico para os lados*/	
 	padding: 50px 0;/*espaçamento dos elementos da lista da barra cinza 50% pra cima/baixo e 0 pros lados*/
 }
 
-.listaDeProdutos li{
+.listaDeProdutos li:hover {
+	border-color: #c78c19;
+}
+
+.listaDeProdutos li:hover h2 {
+	font-size: 40px;
+}
+
+.listaDeProdutos li:active {
+	border-color: #088c19;
+}
+
+.listaDeProdutos li {
 	display: inline-block;/*1*/
 	text-align: center;/*todo conteudo ficará ao centro da div*/
 	width: 30%;
@@ -42,22 +59,44 @@ nav a {
 	margin:0 1.5% ;
 	padding: 30px 20px ;/*espacamento interno*/
 	box-sizing: border-box;/*3*/
+	/*border-color: #000000;
+	border-width: 2px;
+	border-style: solid;*/
+	border: 2px solid #000000;
+	border-radius: 10px;
 }
 
-.listaDeProdutos h2{
+.listaDeProdutos h2 {
 	font-size: 30px;
 	font-weight: bold;
 }
 
-.produto-descricao{
+.produto-descricao {
 	font-size: 18px;
 }
 
-.produto-preco{
+.produto-preco {
 	font-size: 22px;
 	font-weight: bold;
 	margin-top: 10px;
 }
+
+footer{
+	text-align: center;
+	background: url(bg.jpg);
+	padding: 40px 20px;
+}
+.copyrigth{
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-top: 20px;
+}
+/*[nav a:hover]
+hover é quando o mouse passa encima de um link
+a: hover é quando o mouse passa em cima dos links de "a";
+nav a:hover é quando o mouse estiver por cima dos links dentro do menu de navegaçao
+*/
+
 /* [padding:]
 aumenta o espaçamento interno do item e consequentemente o tamanho do item
 */
