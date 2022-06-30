@@ -157,6 +157,21 @@ td, th {
 	margin: 0 0 1em;
 	clear: left;
 }
+
+.titulo-principal:first-letter {
+	font-weight: bold;
+}
+.titulo-principal:before{
+	content: "[";
+}
+
+.titulo-principal:after{
+	content: "]";
+}
+
+p:first-line {
+	font-style: italic;
+}
 .principal {
 	padding: 3em 0;
 	background: #FEFEFE;
@@ -205,6 +220,9 @@ td, th {
 	line-height: 1.5;/*Espaçamento entre as linhas*/
 }
 
+.itens:before{
+	content: "★";
+}
 .itens:first-child {
 	font-weight: bold;
 }/*first-child é um [pseudo elemento]Boa maneira de especificar uma das linhas da lista sem ter que modificar o html 
