@@ -1,0 +1,35 @@
+<HTML>
+	<meta name="viewport" content="width=device-width">
+		Faz o code saber qual a largura do device e podendo entao usar esse dado para tornar responsivo
+	
+	<link rel="stylesheet" href="reset.css">
+		Permite que os estilos que vem de defaut no navegador sejam apagados
+		*Sempre usar o reset antes do import do style senão buga os 2
+	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+		Para usar font externa baste importar e chamar no css
+	
+	<Section>
+		Usamos para dividir partes semanticamente iguais. como uma area que fala sobre 1 unico assunto
+
+	**Quando for tratar de style usar class e comportamento usa ID
+	Pois o id é mais forte e o class pode ser usado genereicamente e em casos se necessario forçar algum subElemento a outro style
+
+</HTML>
+
+<CSS>
+	Sempre organizar no mesmo sentido e direção do html
+	Padding= espaçamento interno
+	Margin = espaçamento externo
+	Display :inline
+		serve quando usamos uma lista e sendo a lista um elemento em bloco, as linhas apareceram um abaixo da outra. e com o inline elas fical lado a lado. Começando uma logo ao final da outra
+	nav a :hover 
+		Para todos os da classe "a" pertencentes ao nav quando o mouse passar por cima
+	.listaDeProdutos li:hover
+		Para todos os itens da lista da classe "listaDeProdutos" quando o mouse passar por cima (:hover)
+	.listaDeProdutos li:hover h2
+		Para todos os h2 da lista dessa classe
+	.listaDeProdutos li:active
+		Quando Clicar em qualquer elemento da lista
+		
+</CSS>
