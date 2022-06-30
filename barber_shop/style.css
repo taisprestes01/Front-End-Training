@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
@@ -146,6 +150,50 @@ td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+/*Css da página inicial*/
+.banner {
+	width: 100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;/*2x o tamanho da fonte padrao do navegagor*/
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong{
+	font-weight: bold;
+}
+
+.principal em{
+	font-weight: italic;
+}
+
+.imgUtensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.imagembeneficios {
+	width: 60%;
+}
+
+.mapa {
+	padding: 3em 0;
+}
+
+.mapa p{
+	margin: 0 0 2em;
+}
+/*[float] faz o elemento flutuar, onde o conteudo contorna ele. Mas sem entrar embaixo
+  [clear] Faz nao aplicar float naquela classe
+*/
 /*[nav a:hover]
 hover é quando o mouse passa encima de um link
 a: hover é quando o mouse passa em cima dos links de "a";
