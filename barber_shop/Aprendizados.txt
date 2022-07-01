@@ -31,5 +31,24 @@
 		Para todos os h2 da lista dessa classe
 	.listaDeProdutos li:active
 		Quando Clicar em qualquer elemento da lista
-		
+	color: rgba(0, 0, 0, 0.7);
+		O quarto parametro é o mesmo que opaccity
+	.titulo-principal:after{
+	.titulo-principal:before{	
+		Coloca antes ou depois de todos da classe
+	p:first-line {
+		Especifica q primeira linha de todos os paragrafos
+	background: linear-gradient(#FEFEFE,#888888);
+	main > p {		
+		So afeta os filhos diretos do main, sem o > todos os <p> ate da lista ficariam vermelhos*/
+	img + p {
+		 O primeiro paragrafo após uma imagem*/
+	img ~ p {     
+		 Todos paragrafos apos uma img*/
+	.principal p:not(#missao){
+		 Seleciona todos os paragrafos que nao são o paragrafo com o class missao*/
+}
+	@media screen and (max-width: 480px) { 
+		Para todos os celulares de ate no max 480px de largura mudar essas configuraçoes
+		(O que nao especificar aqui ele fica igual os outros)
 </CSS>
