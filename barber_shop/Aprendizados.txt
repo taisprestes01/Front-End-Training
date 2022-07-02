@@ -1,3 +1,5 @@
+* O pixel no css nao é exatamente um pixel do monitor. e sim um pixel referencia. Que leva em consideração a distancia que o dispositivo estaria da pessoa. Por exemplo
+um celular fica mais proximo que um computador. 
 <HTML>
 	<meta name="viewport" content="width=device-width">
 		Faz o code saber qual a largura do device e podendo entao usar esse dado para tornar responsivo
